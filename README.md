@@ -1,22 +1,22 @@
 # coffee-shop-website
  
- TEAM:
+ ## TEAM:
 
- Fady Alber        42210136
- Abanoub Attia     42210165
- Baher Mohamed     42210130    
- Youssef mohamed   42210137
- Ehab Ashraf       42210106
- Abdelrahman wael  42210101
+ - Fady Alber        42210136
+ - Abanoub Attia     42210165
+ - Baher Mohamed     42210130    
+ - Youssef mohamed   42210137
+ - Ehab Ashraf       42210106
+ - Abdelrahman wael  42210101
 
 ## Created accounts:
 - Account1:
-    Username: Admin 
-    Password: Admin 
+    - Username: Admin 
+    - Password: Admin 
 
 - Account2:
-    Username: bebo 
-    Password: bebo11
+    - Username: bebo 
+    - Password: bebo11
 
 ## Admin prevelatgies:
 the admin have a special page that allows him to add and delete iteams from the menu and save it in the database also he can see the items in cart for every user 
