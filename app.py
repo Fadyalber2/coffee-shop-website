@@ -38,9 +38,6 @@ login_manager.login_view = 'login'
 def clear_session():
     if not request.endpoint:
         return
-    # Clear any existing session
-    if not current_user.is_authenticated:
-        session.clear()
     # Ensure sessions are never permanent
     session.permanent = False
 
@@ -117,7 +114,7 @@ def login():
     # Clear session when accessing login page
     if request.method == 'GET':
         logout_user()
-        session.clear()
+        # session.clear() # This removes flash messages
         
     if request.method == 'POST':
         username = request.form.get('username')
